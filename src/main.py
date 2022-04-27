@@ -9,6 +9,7 @@ MQTT_HOST = '34.95.158.211'
 MQTT_PORT = 1883
 MQTT_CLIENT_ID = 'conecttec_sub'
 MQTT_USER = 'FIC'
+#Rotas MQTT
 MQTT_PASSWORD = 'ConectTecOnly'
 TOPIC_Status = 'FIC/+/FP/+/Status'
 TOPIC_Reserve = 'FIC/+/FP/+/Reserve'
@@ -17,6 +18,8 @@ TOPIC_Authorize = 'FIC/+/FP/+/Authorize'
 TOPIC_Versao = 'FIC/+/FP/+/Authorize'
 Topic_Online = 'FIC/SerialNumber/+/Status'
 
+
+#Conexão postgres
 db_conn = psycopg2.connect(host='192.168.3.101',
                          database='postgres',
                          user='postgres',
