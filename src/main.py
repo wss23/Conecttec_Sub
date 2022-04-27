@@ -9,6 +9,7 @@ MQTT_HOST = '34.95.158.211'
 MQTT_PORT = 1883
 MQTT_CLIENT_ID = 'conecttec_sub'
 MQTT_USER = 'FIC'
+#Rotas MQTT
 MQTT_PASSWORD = 'ConectTecOnly'
 TOPIC_Status = 'FIC/+/FP/+/Status'
 TOPIC_Reserve = 'FIC/+/FP/+/Reserve'
