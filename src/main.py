@@ -17,6 +17,8 @@ TOPIC_Authorize = 'FIC/+/FP/+/Authorize'
 TOPIC_Versao = 'FIC/+/FP/+/Authorize'
 Topic_Online = 'FIC/SerialNumber/+/Status'
 
+
+#conexão postgres
 db_conn = psycopg2.connect(host='192.168.3.101',
                          database='postgres',
                          user='postgres',
